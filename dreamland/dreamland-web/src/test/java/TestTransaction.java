@@ -15,7 +15,7 @@ public class TestTransaction extends AbstractJUnit4SpringContextTests {
     @Test
     public void testSave(){
         User user = new User();
-        user.setNickName("Wrong one");
+        user.setNickName("Test one from Archer");
         user.setEmail("576785467@qq.com");
         userService.regist(user);
     }

@@ -78,7 +78,7 @@
     <property name="SearchEverywhereHistoryKey" value="dreamland&#9;FILE&#9;file://D:/git/dreamland/pom.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dreamland-web/src/main/java/wang/dreamland/www/common" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -89,14 +89,14 @@
       <recent name="wang.dreamland.www.common" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git\dreamland\dreamland-web\src\main\java\wang\dreamland\www\service\impl" />
-      <recent name="D:\git\dreamland\dreamland-web\src\main\java\wang\dreamland\www\dao" />
-      <recent name="D:\git\dreamland\dreamland-web\src\main\java\wang\dreamland\www\service" />
-      <recent name="D:\git\dreamland\dreamland-web\src\main\java\wang\dreamland\www\entity" />
-      <recent name="D:\git\dreamland\dreamland-web\src\main\resources" />
+      <recent name="D:\Dev\Sample\SSM项目\04：接口设计及通用Mapper\dreamland\dreamland-web\src\main\java\wang\dreamland\www\common" />
+      <recent name="D:\Dev\Sample\SSM项目\04：接口设计及通用Mapper\dreamland\dreamland-web\src\main\java\wang\dreamland\www" />
+      <recent name="D:\Dev\Sample\SSM项目\04：接口设计及通用Mapper\dreamland\dreamland-web\src\main\java\wang\dreamland\www\controller" />
+      <recent name="D:\Dev\Sample\SSM项目\04：接口设计及通用Mapper\dreamland\dreamland-web\src\main\webapp" />
+      <recent name="D:\Dev\Sample\SSM项目\04：接口设计及通用Mapper\dreamland\dreamland-web\src\main\webapp\WEB-INF\regist" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestTransaction.testSave">
+  <component name="RunManager" selected="Smart Tomcat.Dreamland-Web-Tomcat">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -399,6 +399,20 @@
       <envs />
       <method />
     </configuration>
+    <configuration name="MailExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wang.dreamland.www.mail.MailExample" />
+      <module name="dreamland-web" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wang.dreamland.www.mail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -549,11 +563,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dreamland-Web-Tomcat" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="adminPort" value="8005" />
+      <option name="ajpPort" value="8009" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="contextPath" value="/dreamland-web" />
+      <option name="customContext" value="/dreamland-web" />
+      <option name="docBase" value="D:\Dev\Sample\SSM项目\04：接口设计及通用Mapper\dreamland\dreamland-web\src\main\webapp" />
+      <option name="envOptions" />
+      <option name="moduleName" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat 9.0.30" />
+          <option name="number" value="0" />
+          <option name="path" value="D:\Software\apache-tomcat-9.0.30" />
+          <option name="version" value="9.0.30.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.MailExample" />
       <item itemvalue="JUnit.TestTransaction.testSave" />
+      <item itemvalue="Smart Tomcat.Dreamland-Web-Tomcat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MailExample" />
         <item itemvalue="JUnit.TestTransaction.testSave" />
       </list>
     </recent_temporary>
@@ -595,34 +636,84 @@
       <screen x="-1920" y="-99" width="1920" height="1040" />
     </state>
     <state x="-1368" y="79" key="#Project_Structure/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581000665875" />
-    <state x="724" y="185" key="FileChooserDialogImpl" timestamp="1581001101896">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="-1506" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581259723237">
+      <screen x="-1920" y="-99" width="1920" height="1040" />
     </state>
+    <state x="-1506" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581259723237" />
+    <state width="407" height="466" key="DebuggerActiveHint" timestamp="1581263618461">
+      <screen x="-1920" y="-99" width="1920" height="1040" />
+    </state>
+    <state width="407" height="466" key="DebuggerActiveHint/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581263618461" />
+    <state x="-902" y="165" key="FileChooserDialogImpl" timestamp="1581257348774">
+      <screen x="-1920" y="-99" width="1920" height="1040" />
+    </state>
+    <state x="-902" y="165" key="FileChooserDialogImpl/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581257348774" />
     <state x="724" y="185" key="FileChooserDialogImpl/0.0.1366.728/-1920.-99.1920.1040@0.0.1366.728" timestamp="1581001101896" />
-    <state width="1877" height="300" key="GridCell.Tab.0.bottom" timestamp="1581255410072">
+    <state width="1877" height="300" key="GridCell.Tab.0.bottom" timestamp="1581342609458">
       <screen x="-1920" y="-99" width="1920" height="1040" />
     </state>
-    <state width="1877" height="300" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581255410072" />
+    <state width="1877" height="300" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581342609458" />
     <state width="1323" height="341" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-99.1920.1040@0.0.1366.728" timestamp="1581001230420" />
-    <state width="1877" height="300" key="GridCell.Tab.0.center" timestamp="1581255410071">
+    <state width="1877" height="300" key="GridCell.Tab.0.center" timestamp="1581342609457">
       <screen x="-1920" y="-99" width="1920" height="1040" />
     </state>
-    <state width="1877" height="300" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581255410071" />
+    <state width="1877" height="300" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581342609457" />
     <state width="1323" height="341" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-99.1920.1040@0.0.1366.728" timestamp="1581001230419" />
-    <state width="1877" height="300" key="GridCell.Tab.0.left" timestamp="1581255410071">
+    <state width="1877" height="300" key="GridCell.Tab.0.left" timestamp="1581342609457">
       <screen x="-1920" y="-99" width="1920" height="1040" />
     </state>
-    <state width="1877" height="300" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581255410071" />
+    <state width="1877" height="300" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581342609457" />
     <state width="1323" height="341" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-99.1920.1040@0.0.1366.728" timestamp="1581001230419" />
-    <state width="1877" height="300" key="GridCell.Tab.0.right" timestamp="1581255410071">
+    <state width="1877" height="300" key="GridCell.Tab.0.right" timestamp="1581342609458">
       <screen x="-1920" y="-99" width="1920" height="1040" />
     </state>
-    <state width="1877" height="300" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581255410071" />
+    <state width="1877" height="300" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581342609458" />
     <state width="1323" height="341" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-99.1920.1040@0.0.1366.728" timestamp="1581001230419" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1581263713333">
+      <screen x="-1920" y="-99" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581263713333" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1581263713333">
+      <screen x="-1920" y="-99" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581263713333" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1581263713333">
+      <screen x="-1920" y="-99" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581263713333" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1581263713333">
+      <screen x="-1920" y="-99" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581263713333" />
     <state x="65" y="0" key="SettingsEditor" timestamp="1581001153875">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="SettingsEditor/0.0.1366.728/-1920.-99.1920.1040@0.0.1366.728" timestamp="1581001153875" />
+    <state x="-1177" y="80" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581261904807">
+      <screen x="-1920" y="-99" width="1920" height="1040" />
+    </state>
+    <state x="-1177" y="80" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728/-1920.-99.1920.1040@-1920.-99.1920.1040" timestamp="1581261904807" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.3.RELEASE/spring-data-redis-2.1.3.RELEASE.jar!/org/springframework/data/redis/connection/RedisStandaloneConfiguration.class</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.3.RELEASE/spring-data-redis-2.1.3.RELEASE.jar!/org/springframework/data/redis/connection/RedisStandaloneConfiguration.class</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar!/org/springframework/util/Assert.class</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
